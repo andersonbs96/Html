@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0, 255, 0, 1.0);
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 30px 50px 50px 50px;    
+}
+#cachorro01_id:hover{
+    transform: rotate(30deg);
+}
+#cachorro02_id:hover{
+    transform: scale(2,3);
+}
+#cachorro03_id:hover{
+    transform: scaleX(2);
+}
+#cachorro04_id:hover{
+    transform: scaleY(2);
+}
+#cachorro05_id:hover{
+    transform: translate(-50px, -50px);
+}
+#cachorro06_id:hover{
+    transform: translate(50px, 50px);
+}
+#cachorro07_id:hover{
+    transform: skew(20deg, 20deg);
+}
+#cachorro08_id:hover{
+    transform: skewX(20deg);
+}
+#cachorro09_id:hover{
+    transform: skewY(20deg);
+}
+#cachorro10_id:hover{
+    transform: matrix(0.5, 2, 2, 0.5, -50, 100);
+}
+#cachorro11_id:hover{
+    margin-bottom: 50px;
+    transform: rotate3d(4, 4, 4, 90deg);
+    transition-timing-function: 15s;
+}
+#cachorro12_id:hover{
+    transform: rotateX(50deg);
+}
+#cachorro13_id:hover{
+    transform: rotateY(50deg);
+}
+#cachorro14_id:hover{
+    transform: rotateZ(50deg);
+}
